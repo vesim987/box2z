@@ -1,0 +1,12 @@
+.{
+    .name = "box2z",
+    .version = "0.0.1",
+    .paths = .{"src/main.zig"},
+    .dependencies = .{
+        .box2c = .{
+            .url = "https://github.com/erincatto/box2c/archive/8052efea4585297359ba1bb5bd06984709de7323.tar.gz",
+            .hash = "1220f89fbd54e52f09ac9f8ea67d33a86dcf2658feb066aa3d127074b8a598a1f281",
+        },
+    },
+}
+
